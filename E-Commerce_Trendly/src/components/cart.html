@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Cart</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Manrope:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-[#F4F4F5] antialiased">
+
+    <nav class="bg-white flex justify-between items-center px-4 sm:px-8 py-5 shadow-sm">
+       <a href="index.html">
+        <h1 class="font-title text-[#1B2B48] text-xl font-bold tracking-wide">
+          TRENDLY
+        </h1>
+      </a>
+        <div class="flex gap-6 text-sm text-[#71717A]">
+            <a href="shopping.html" class="hover:text-[#1B2B48] transition-colors">Shop All</a>
+        </div>
+        <div class="flex gap-4 text-[#1B2B48]">
+            <a href="cart.html" class="relative p-1">
+                <span class="text-xl">🛒</span>
+                <span class="absolute -top-1 -right-1 bg-[#1B2B48] text-white text-[10px] w-4 h-4 rounded-full flex items-center justify-center font-bold">3</span>
+            </a>
+        </div>
+    </nav>
+
+    <div class="max-w-6xl mx-auto px-4 py-6 sm:p-8">
+        <p class="text-xs text-[#71717A]">
+            Home &rarr; Shopping Cart
+        </p>
+
+        <h1 class="font-title text-2xl sm:text-4xl text-[#1B2B48] mt-2 font-bold">
+            Your Cart (3)
+        </h1>
+
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 sm:gap-8 mt-6 sm:mt-8">
+
+            <div class="lg:col-span-2 space-y-4 sm:space-y-5">
+
+                <div class="bg-white p-4 rounded-xl flex flex-col sm:flex-row gap-4 sm:gap-5 relative">
+                    <img src="https://images.unsplash.com/photo-1598808503746-f34c53b9323e?w=200" alt="Textured Wool Overcoat" class="w-full sm:w-28 h-48 sm:h-28 object-cover rounded-lg">
+                    
+                    <div class="flex-1 flex flex-col justify-between">
+                        <div>
+                            <div class="flex justify-between items-start gap-2">
+                                <h2 class="font-title text-[#1B2B48] font-semibold text-base sm:text-lg">
+                                    Textured Wool Overcoat
+                                </h2>
+                                <h3 class="text-[#1B2B48] font-bold sm:hidden">$495.00</h3>
+                            </div>
+                            <p class="text-xs sm:text-sm text-[#71717A] mt-0.5">
+                                Charcoal Gray / Large
+                            </p>
+                            <p class="text-green-600 text-xs mt-1 flex items-center gap-1">
+                                <span class="inline-block w-2 h-2 rounded-full bg-green-600"></span> In Stock
+                            </p>
+                        </div>
+                        
+                        <div class="mt-4 flex items-center">
+                            <button class="border border-gray-200 rounded-l px-3 py-1 text-gray-600 hover:bg-gray-50 active:bg-gray-100 transition-colors">&minus;</button>
+                            <span class="px-4 py-1 border-t border-b border-gray-200 text-sm font-medium bg-gray-50">1</span>
+                            <button class="border border-gray-200 rounded-r px-3 py-1 text-gray-600 hover:bg-gray-50 active:bg-gray-100 transition-colors">+</button>
+                        </div>
+                    </div>
+                    
+                    <h3 class="hidden sm:block text-[#1B2B48] font-bold text-lg">$495.00</h3>
+                </div>
+
+                <div class="bg-white p-4 rounded-xl flex flex-col sm:flex-row gap-4 sm:gap-5 relative">
+                    <img src="https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?w=200" alt="Essential Organic Tee" class="w-full sm:w-28 h-48 sm:h-28 object-cover rounded-lg">
+                    
+                    <div class="flex-1 flex flex-col justify-between">
+                        <div>
+                            <div class="flex justify-between items-start gap-2">
+                                <h2 class="font-title text-[#1B2B48] font-semibold text-base sm:text-lg">
+                                    Essential Organic Tee
+                                </h2>
+                                <h3 class="text-[#1B2B48] font-bold sm:hidden">$65.00</h3>
+                            </div>
+                            <p class="text-xs sm:text-sm text-[#71717A] mt-0.5">
+                                Optic White / Medium
+                            </p>
+                            <p class="text-amber-600 text-xs mt-1 flex items-center gap-1">
+                                <span class="inline-block w-2 h-2 rounded-full bg-amber-500"></span> Ships in 3 days
+                            </p>
+                        </div>
+                        
+                        <div class="mt-4 flex items-center">
+                            <button class="border border-gray-200 rounded-l px-3 py-1 text-gray-600 hover:bg-gray-50 active:bg-gray-100 transition-colors">&minus;</button>
+                            <span class="px-4 py-1 border-t border-b border-gray-200 text-sm font-medium bg-gray-50">2</span>
+                            <button class="border border-gray-200 rounded-r px-3 py-1 text-gray-600 hover:bg-gray-50 active:bg-gray-100 transition-colors">+</button>
+                        </div>
+                    </div>
+                    
+                    <h3 class="hidden sm:block text-[#1B2B48] font-bold text-lg">$65.00</h3>
+                </div>
+
+                <div class="bg-white p-4 rounded-xl flex flex-col sm:flex-row gap-4 sm:gap-5 relative">
+                    <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=200" alt="Urban Tech Sneaker" class="w-full sm:w-28 h-48 sm:h-28 object-cover rounded-lg">
+                    
+                    <div class="flex-1 flex flex-col justify-between">
+                        <div>
+                            <div class="flex justify-between items-start gap-2">
+                                <h2 class="font-title text-[#1B2B48] font-semibold text-base sm:text-lg">
+                                    Urban Tech Sneaker
+                                </h2>
+                                <h3 class="text-[#1B2B48] font-bold sm:hidden">$185.00</h3>
+                            </div>
+                            <p class="text-xs sm:text-sm text-[#71717A] mt-0.5">
+                                Matte Black / 10.5
+                            </p>
+                            <p class="text-green-600 text-xs mt-1 flex items-center gap-1">
+                                <span class="inline-block w-2 h-2 rounded-full bg-green-600"></span> In Stock
+                            </p>
+                        </div>
+                        
+                        <div class="mt-4 flex items-center">
+                            <button class="border border-gray-200 rounded-l px-3 py-1 text-gray-600 hover:bg-gray-50 active:bg-gray-100 transition-colors">&minus;</button>
+                            <span class="px-4 py-1 border-t border-b border-gray-200 text-sm font-medium bg-gray-50">1</span>
+                            <button class="border border-gray-200 rounded-r px-3 py-1 text-gray-600 hover:bg-gray-50 active:bg-gray-100 transition-colors">+</button>
+                        </div>
+                    </div>
+                    
+                    <h3 class="hidden sm:block text-[#1B2B48] font-bold text-lg">$185.00</h3>
+                </div>
+
+            </div>
+
+            <div class="bg-white rounded-xl p-5 sm:p-6 h-fit shadow-sm border border-gray-100">
+                <h2 class="font-title text-xl text-[#1B2B48] font-bold">
+                    Order Summary
+                </h2>
+
+                <div class="mt-4 sm:mt-6 space-y-3 text-sm">
+                    <div class="flex justify-between text-[#71717A]">
+                        <span>Subtotal</span>
+                        <span class="text-[#1B2B48] font-medium">$810.00</span>
+                    </div>
+                    <div class="flex justify-between text-[#71717A]">
+                        <span>Shipping</span>
+                        <span class="text-[#1B2B48] font-medium">$12.00</span>
+                    </div>
+                    <div class="flex justify-between text-[#71717A]">
+                        <span>Tax</span>
+                        <span class="text-[#1B2B48] font-medium">$64.80</span>
+                    </div>
+                    <hr class="border-gray-100">
+                    <div class="flex justify-between font-bold text-lg text-[#1B2B48] pt-1">
+                        <span>Total</span>
+                        <span>$886.80</span>
+                    </div>
+                </div>
+
+                <button class="mt-6 w-full bg-[#1B2B48] text-white py-3 rounded-lg font-semibold hover:bg-[#23375c] active:scale-[0.99] transition-all shadow-sm">
+                    Proceed to Checkout
+                </button>
+
+                <div class="mt-6 sm:mt-8 text-xs text-[#71717A] space-y-2.5 bg-gray-50 p-3.5 rounded-lg">
+                    <p class="flex items-center gap-2 text-green-700 font-medium">&check; Free Shipping on orders over $100</p>
+                    <p class="flex items-center gap-2">&check; 30-Day Returns Policy</p>
+                    <p class="flex items-center gap-2">&check; Secure Payment</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+</html>
